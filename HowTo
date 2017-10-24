@@ -1,0 +1,8 @@
+- Install GoLang
+$ yaourt -S go
+
+- Create a go file
+$ touch main.go
+
+- Compile and run Go program
+$ go run main.go
