@@ -13,3 +13,12 @@ $ ./helloWorld
 
 - Documentation
 $  go doc fmt Printf
+
+- Generating a package
+$ export GOPATH=/home/thiago/Documents/Go/helloWorld/
+$ go build -o helloWorld
+$ ./helloWorld
+
+- Testing
+$ cd myPackages
+$ go test

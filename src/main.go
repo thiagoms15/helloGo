@@ -2,6 +2,8 @@ package main
 
 // shorthand for format
 import "fmt"
+// include my package math
+import "myPackages"
 
 func main() {
 	var name string
@@ -20,6 +22,8 @@ func main() {
         fmt.Println(i, "is odd")
       }
   }
+
+  usingPackage()
 }
 
 func add(a int, b int)int {
@@ -32,5 +36,10 @@ func readInput() {
 	fmt.Print("Enter a number: ")
 	fmt.Scanf("%f", &input)
 	fmt.Println("The number is", input)
+}
 
+func usingPackage() {
+	xs := []float64{1,2,3,4}
+	avg := math.Average(xs)
+	fmt.Println(avg)
 }
