@@ -6,3 +6,10 @@ $ touch main.go
 
 - Compile and run Go program
 $ go run main.go
+
+- Compile and execute
+$ go build
+$ ./helloWorld
+
+- Documentation
+$  go doc fmt Printf
