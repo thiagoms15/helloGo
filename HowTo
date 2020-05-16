@@ -15,7 +15,7 @@ $ ./helloWorld
 $  go doc fmt Printf
 
 - Generating a package
-$ export GOPATH=/home/thiago/Documents/Go/helloWorld/
+$ export GOPATH=$HOME/Documents/Go/helloWorld/
 $ go build -o helloWorld
 $ ./helloWorld
 
